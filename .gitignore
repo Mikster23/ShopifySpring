@@ -1,0 +1,57 @@
+# ignore and created directories
+*/classes
+*.class
+*/deploy
+*/deploy/
+*/*svn/
+.adf/
+.data/
+test-classes/
+classes/
+
+# package files
+*.jar
+*.war
+*.ear
+
+#dev specific properties files
+*_devfile_*
+HRService
+INVWebUI/public_html/WEB-INF/classes
+target
+cwallet.sso.lck
+INVWebUI/public_html/WEB-INF/temp
+.project
+.settings
+
+#eclipse files
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.classpath
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# Java annotation processor (APT)
+.factorypath
+
+# Code Recommenders
+INVWebUI/public_html/WEB-INF/classes
+INVWebUI/public_html/WEB-INF/temp
